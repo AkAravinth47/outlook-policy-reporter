@@ -1,0 +1,17 @@
+# Ignore environment files with secrets
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 资料目录（所有 *_policy 文件夹）
+*_policy/
+
+# 运行产物（聚合文本 / 抽取 JSON / 报告）
+ALL_*.txt
+EXTRACT_*.json
+Weekly_report_*.md
+
+# 可选：排除本地 IDE 配置
+#.vscode/

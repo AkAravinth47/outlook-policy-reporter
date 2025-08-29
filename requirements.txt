@@ -1,0 +1,4 @@
+pywin32==311
+python-dotenv==1.1.1
+openai==1.101.0
+
